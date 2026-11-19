@@ -1,0 +1,1508 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蕾丝猫 妲己 - 原创影像品牌,官方视频门户</title>
+<meta name="description" content="蕾丝猫 妲己官方网站，专注原创影像与创作者内容生态的视频品牌门户，呈现品牌故事、精品内容与持续运营的社区活力。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b1f3a'/%3E%3Cpath d='M18 22l8 6 6-10 6 10 8-6-3 22H21z' fill='%23e7a3c8'/%3E%3Ccircle cx='27' cy='38' r='2.4' fill='%232b1f3a'/%3E%3Ccircle cx='37' cy='38' r='2.4' fill='%232b1f3a'/%3E%3C/svg%3E">
+<style>
+:root{
+  --lx-ink:#2b1f3a;
+  --lx-ink-soft:#4b3a5e;
+  --lx-plum:#5a3d6b;
+  --lx-pink:#e7a3c8;
+  --lx-pink-deep:#cf6fa4;
+  --lx-violet:#7d5ba6;
+  --lx-mist:#f6f1f7;
+  --lx-line:#e4d8ea;
+  --lx-paper:#fffdfe;
+  --lx-gold:#c9a227;
+  --lx-radius:18px;
+  --lx-shadow:0 10px 30px rgba(43,31,58,.10);
+  --lx-shadow-lg:0 22px 50px rgba(43,31,58,.18);
+  --lx-max:1180px;
+  --lx-sticky:104px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--lx-sticky)}
+body{
+  margin:0;font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  color:var(--lx-ink);background:var(--lx-paper);line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+h1,h2,h3,h4{margin:0;line-height:1.3}
+p{margin:0}
+.lx-wrap{max-width:var(--lx-max);margin:0 auto;padding:0 22px}
+
+/* ===== 公告条 + 页头 吸顶 ===== */
+.lx-sticky-shell{position:sticky;top:0;z-index:120}
+.lx-notice{
+  background:linear-gradient(90deg,#3a2947,#5a3d6b 45%,#7d5ba6);
+  color:#f7ecfa;font-size:13.5px;letter-spacing:.2px;
+}
+.lx-notice .lx-wrap{display:flex;align-items:center;gap:14px;padding:9px 22px;min-height:40px;flex-wrap:wrap}
+.lx-notice-tag{
+  flex:none;background:var(--lx-pink);color:#2b1f3a;font-weight:700;
+  font-size:11.5px;padding:2px 9px;border-radius:99px;letter-spacing:1px;
+}
+.lx-notice-list{display:flex;gap:22px;flex-wrap:wrap;overflow:hidden}
+.lx-notice-item{white-space:nowrap;opacity:.94}
+.lx-notice-item b{color:#ffd9ec;font-weight:600}
+.lx-notice-close{
+  margin-left:auto;background:transparent;border:1px solid rgba(255,255,255,.4);
+  color:#f7ecfa;border-radius:99px;font-size:11.5px;padding:1px 10px;
+}
+.lx-header{
+  background:rgba(255,253,254,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--lx-line);box-shadow:0 4px 18px rgba(43,31,58,.05);
+}
+.lx-header .lx-wrap{display:flex;align-items:center;gap:20px;min-height:64px}
+.lx-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.5px;flex:none}
+.lx-logo-mark{
+  width:38px;height:38px;border-radius:12px;flex:none;
+  background:radial-gradient(circle at 30% 25%,#f2c6dd,#a86ac4 60%,#4b3a5e);
+  display:grid;place-items:center;color:#fff;font-size:17px;box-shadow:0 6px 16px rgba(125,91,166,.35);
+}
+.lx-logo small{display:block;font-size:10.5px;font-weight:500;color:var(--lx-plum);letter-spacing:2px}
+.lx-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:8px}
+.lx-nav a{
+  padding:8px 13px;border-radius:10px;font-size:14.5px;color:var(--lx-ink-soft);
+  transition:.22s;font-weight:500;
+}
+.lx-nav a:hover,.lx-nav a.lx-nav-active{background:var(--lx-mist);color:var(--lx-pink-deep)}
+.lx-search{margin-left:auto;display:flex;align-items:center;gap:8px;flex:none}
+.lx-search-box{display:flex;align-items:center;background:var(--lx-mist);border:1px solid var(--lx-line);border-radius:99px;padding:4px 4px 4px 14px;transition:.22s}
+.lx-search-box:focus-within{border-color:var(--lx-pink-deep);background:#fff;box-shadow:0 0 0 4px rgba(207,111,164,.12)}
+.lx-search-box input{border:0;background:transparent;outline:0;font-size:13.5px;width:150px;color:var(--lx-ink);padding:5px 0}
+.lx-search-btn{
+  border:0;background:var(--lx-ink);color:#fff;border-radius:99px;padding:6px 14px;font-size:13px;transition:.22s;
+}
+.lx-search-btn:hover{background:var(--lx-pink-deep)}
+.lx-burger{
+  display:none;border:1px solid var(--lx-line);background:#fff;border-radius:12px;
+  width:42px;height:38px;font-size:17px;color:var(--lx-ink);
+}
+.lx-search-feedback{
+  position:absolute;right:0;top:calc(100% + 8px);background:#fff;border:1px solid var(--lx-line);
+  border-radius:14px;box-shadow:var(--lx-shadow-lg);padding:12px 16px;font-size:13px;
+  width:290px;color:var(--lx-ink-soft);display:none;
+}
+.lx-search-feedback.is-on{display:block}
+.lx-search-feedback b{color:var(--lx-pink-deep)}
+.lx-header-rel{position:relative}
+.lx-header-rel .lx-search{position:relative}
+
+/* ===== 首屏 ===== */
+.lx-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 82% -6%,rgba(231,163,200,.45),transparent 60%),
+    radial-gradient(700px 380px at 8% 110%,rgba(125,91,166,.30),transparent 62%),
+    linear-gradient(160deg,#fbf6fd 0%,#f1e6f6 100%);
+  border-bottom:1px solid var(--lx-line);
+}
+.lx-hero .lx-wrap{
+  display:grid;grid-template-columns:1fr .92fr;gap:46px;align-items:center;
+  padding-top:64px;padding-bottom:70px;
+}
+.lx-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--lx-line);
+  border-radius:99px;padding:5px 14px;font-size:12.5px;color:var(--lx-plum);letter-spacing:.6px;
+  box-shadow:0 6px 18px rgba(43,31,58,.06);
+}
+.lx-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--lx-pink-deep);display:block}
+.lx-hero h1{
+  font-size:clamp(38px,5.4vw,64px);letter-spacing:-1px;margin:18px 0 6px;
+  background:linear-gradient(120deg,#2b1f3a 25%,#7d5ba6 60%,#cf6fa4);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.lx-hero-sub{font-size:17px;color:var(--lx-plum);font-weight:600;margin-bottom:14px;letter-spacing:.4px}
+.lx-hero-intro{font-size:15px;color:#574669;max-width:560px}
+.lx-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 30px}
+.lx-btn{
+  border:0;border-radius:99px;padding:12px 26px;font-size:14.5px;font-weight:600;
+  transition:.24s;display:inline-flex;align-items:center;gap:8px;
+}
+.lx-btn-primary{background:linear-gradient(120deg,#7d5ba6,#cf6fa4);color:#fff;box-shadow:0 12px 26px rgba(125,91,166,.32)}
+.lx-btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 34px rgba(125,91,166,.42)}
+.lx-btn-ghost{background:#fff;color:var(--lx-ink);border:1px solid var(--lx-line)}
+.lx-btn-ghost:hover{border-color:var(--lx-pink-deep);color:var(--lx-pink-deep);transform:translateY(-2px)}
+.lx-hero-stats{display:flex;gap:34px;flex-wrap:wrap;border-top:1px dashed var(--lx-line);padding-top:22px}
+.lx-stat-num{font-size:26px;font-weight:800;letter-spacing:-.5px;color:var(--lx-ink)}
+.lx-stat-num span{font-size:14px;font-weight:600;color:var(--lx-pink-deep);margin-left:2px}
+.lx-stat-label{font-size:12.5px;color:#7a688c;letter-spacing:.5px}
+.lx-hero-visual{position:relative}
+.lx-hero-main{
+  border-radius:26px;overflow:hidden;box-shadow:var(--lx-shadow-lg);
+  border:6px solid #fff;background:#fff;transform:rotate(-1.2deg);
+}
+.lx-hero-main img{width:100%;aspect-ratio:4/3.2;object-fit:cover}
+.lx-hero-float{
+  position:absolute;right:-6px;bottom:26px;background:#fff;border-radius:16px;
+  padding:12px 16px;box-shadow:var(--lx-shadow-lg);border:1px solid var(--lx-line);
+  display:flex;align-items:center;gap:11px;max-width:250px;
+}
+.lx-hero-float .lx-avatar{width:38px;height:38px;font-size:15px}
+.lx-hero-float h4{font-size:13.5px}
+.lx-hero-float p{font-size:11.5px;color:#7a688c}
+.lx-hero-chip{
+  position:absolute;left:-10px;top:22px;background:var(--lx-ink);color:#ffe4f2;
+  font-size:12px;padding:7px 14px;border-radius:99px;letter-spacing:.6px;
+  box-shadow:0 10px 24px rgba(43,31,58,.3);
+}
+
+/* ===== 通用 section ===== */
+.lx-section{padding:76px 0}
+.lx-section-alt{background:linear-gradient(180deg,#faf6fc,#f4ecf7)}
+.lx-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:34px}
+.lx-sec-kicker{
+  font-size:12px;letter-spacing:3px;color:var(--lx-pink-deep);font-weight:700;text-transform:uppercase;
+}
+.lx-sec-head h2{font-size:clamp(25px,3.2vw,34px);letter-spacing:-.6px;margin-top:6px}
+.lx-sec-head p{font-size:14.5px;color:#6b5a7e;max-width:520px}
+.lx-sec-more{font-size:13.5px;font-weight:600;color:var(--lx-plum);border-bottom:2px solid var(--lx-pink);padding-bottom:2px;flex:none}
+
+/* ===== 焦点内容 ===== */
+.lx-feature-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:22px}
+.lx-card{
+  background:#fff;border:1px solid var(--lx-line);border-radius:var(--lx-radius);overflow:hidden;
+  transition:.28s;position:relative;
+}
+.lx-card:hover{transform:translateY(-5px);box-shadow:var(--lx-shadow-lg);border-color:#dcc9e6}
+.lx-thumb{position:relative;overflow:hidden;background:#e9dff0}
+.lx-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:.5s}
+.lx-card:hover .lx-thumb img{transform:scale(1.05)}
+.lx-thumb-tag{
+  position:absolute;left:12px;top:12px;background:rgba(43,31,58,.82);color:#ffe4f2;
+  font-size:11.5px;padding:3px 10px;border-radius:99px;letter-spacing:.5px;backdrop-filter:blur(4px);
+}
+.lx-thumb-time{
+  position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.62);color:#fff;
+  font-size:11px;padding:2px 8px;border-radius:6px;letter-spacing:.4px;
+}
+.lx-thumb-shade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(43,31,58,.55));pointer-events:none}
+.lx-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;
+  background:rgba(255,255,255,.9);display:grid;place-items:center;color:var(--lx-plum);font-size:17px;
+  box-shadow:0 8px 22px rgba(0,0,0,.22);transition:.25s;
+}
+.lx-card:hover .lx-play{background:var(--lx-pink);color:#fff;transform:translate(-50%,-50%) scale(1.08)}
+.lx-card-body{padding:16px 18px 18px}
+.lx-card-body h3{font-size:16.5px;margin-bottom:7px}
+.lx-card-body p{font-size:13px;color:#6b5a7e;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lx-card-meta{display:flex;align-items:center;gap:9px;margin-top:13px;font-size:12px;color:#8a7a9b;flex-wrap:wrap}
+.lx-avatar{
+  width:30px;height:30px;border-radius:50%;flex:none;display:grid;place-items:center;
+  font-size:12.5px;font-weight:700;color:#fff;letter-spacing:.5px;
+}
+.lx-card-ops{display:flex;gap:8px;margin-top:14px;border-top:1px dashed var(--lx-line);padding-top:12px}
+.lx-op{
+  border:1px solid var(--lx-line);background:#fff;border-radius:99px;padding:4px 12px;font-size:12px;
+  color:#6b5a7e;transition:.2s;display:inline-flex;gap:5px;align-items:center;
+}
+.lx-op:hover{border-color:var(--lx-pink-deep);color:var(--lx-pink-deep)}
+.lx-op.is-like{background:#fdeef6;border-color:var(--lx-pink-deep);color:var(--lx-pink-deep)}
+.lx-op.is-fav{background:#f3edf9;border-color:var(--lx-violet);color:var(--lx-violet)}
+.lx-side-stack{display:grid;grid-template-rows:repeat(4,1fr);gap:14px}
+.lx-mini{display:flex;gap:12px;padding:11px;align-items:center}
+.lx-mini .lx-thumb{width:114px;flex:none;border-radius:11px}
+.lx-mini .lx-thumb img{aspect-ratio:16/10}
+.lx-mini h3{font-size:14px;line-height:1.5;margin-bottom:5px}
+.lx-mini p{font-size:11.5px;color:#8a7a9b}
+
+/* ===== 关键词深度解析 ===== */
+.lx-about{background:#fff;border-top:1px solid var(--lx-line);border-bottom:1px solid var(--lx-line)}
+.lx-about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:start}
+.lx-about-card{
+  background:linear-gradient(160deg,#f4ecf9,#fdf3f8);border:1px solid var(--lx-line);
+  border-radius:24px;padding:30px;position:sticky;top:calc(var(--lx-sticky) + 20px);
+}
+.lx-about-card h3{font-size:19px;margin-bottom:12px}
+.lx-about-card ul{list-style:none;margin:0;padding:0;display:grid;gap:11px;font-size:13.5px;color:#574669}
+.lx-about-card li{display:flex;gap:10px;align-items:flex-start}
+.lx-about-card li::before{content:"◆";color:var(--lx-pink-deep);font-size:9px;line-height:2.3;flex:none}
+.lx-about-body h2{font-size:clamp(24px,3vw,32px);letter-spacing:-.5px;margin-bottom:18px}
+.lx-about-body h3{font-size:17px;margin:24px 0 9px;color:var(--lx-plum);display:flex;align-items:center;gap:9px}
+.lx-about-body h3::before{content:"";width:5px;height:17px;border-radius:3px;background:linear-gradient(#7d5ba6,#e7a3c8)}
+.lx-about-body p{font-size:14.5px;color:#574669;margin-bottom:12px;text-align:justify}
+.lx-quote{
+  border-left:4px solid var(--lx-pink);background:var(--lx-mist);padding:14px 18px;border-radius:0 14px 14px 0;
+  font-size:14px;color:var(--lx-plum);margin:16px 0;
+}
+
+/* ===== 专题 ===== */
+.lx-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.lx-topic{
+  border-radius:20px;overflow:hidden;position:relative;min-height:250px;display:flex;align-items:flex-end;
+  color:#fff;box-shadow:var(--lx-shadow);transition:.3s;
+}
+.lx-topic:hover{transform:translateY(-6px);box-shadow:var(--lx-shadow-lg)}
+.lx-topic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.lx-topic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,31,58,.05) 30%,rgba(43,31,58,.88))}
+.lx-topic-in{position:relative;z-index:2;padding:20px}
+.lx-topic-in span{font-size:11px;background:var(--lx-pink);color:#2b1f3a;font-weight:700;padding:2px 9px;border-radius:99px;letter-spacing:.5px}
+.lx-topic-in h3{font-size:17px;margin:10px 0 6px}
+.lx-topic-in p{font-size:12.5px;color:#e8daee}
+
+/* ===== 创作者矩阵 ===== */
+.lx-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.lx-creator{
+  background:#fff;border:1px solid var(--lx-line);border-radius:18px;padding:22px 18px;text-align:center;
+  transition:.28s;
+}
+.lx-creator:hover{transform:translateY(-5px);box-shadow:var(--lx-shadow-lg);border-color:#dcc9e6}
+.lx-creator .lx-avatar{width:58px;height:58px;font-size:21px;margin:0 auto 12px}
+.lx-creator h3{font-size:15px;margin-bottom:3px}
+.lx-creator .lx-creator-field{font-size:11.5px;color:var(--lx-pink-deep);letter-spacing:.5px;margin-bottom:9px}
+.lx-creator p{font-size:12.5px;color:#7a688c;min-height:56px}
+.lx-creator-data{display:flex;justify-content:center;gap:16px;margin-top:12px;border-top:1px dashed var(--lx-line);padding-top:11px;font-size:11.5px;color:#8a7a9b}
+.lx-creator-data b{display:block;font-size:14px;color:var(--lx-ink)}
+.lx-creator-info{margin-top:12px;border:0;background:var(--lx-mist);border-radius:99px;padding:5px 16px;font-size:12px;color:var(--lx-plum);transition:.2s}
+.lx-creator-info:hover{background:var(--lx-pink);color:#2b1f3a}
+
+/* ===== 作品墙 ===== */
+.lx-wall{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:112px;gap:12px}
+.lx-wall-item{position:relative;border-radius:14px;overflow:hidden;cursor:pointer}
+.lx-wall-item img{width:100%;height:100%;object-fit:cover;transition:.45s}
+.lx-wall-item:hover img{transform:scale(1.07)}
+.lx-wall-item::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(43,31,58,.62))}
+.lx-wall-item span{position:absolute;left:11px;bottom:9px;z-index:2;color:#fff;font-size:11.5px;letter-spacing:.3px}
+.lx-wall-a{grid-column:span 2;grid-row:span 2}
+.lx-wall-b{grid-column:span 2}
+.lx-wall-c{grid-column:span 2;grid-row:span 2}
+.lx-wall-d{grid-column:span 2}
+.lx-wall-e{grid-column:span 3;grid-row:span 2}
+.lx-wall-f{grid-column:span 3;grid-row:span 2}
+.lx-wall-g{grid-column:span 2}
+.lx-wall-h{grid-column:span 2}
+
+/* ===== 评价 ===== */
+.lx-review-grid{columns:3;column-gap:18px}
+.lx-review{
+  break-inside:avoid;background:#fff;border:1px solid var(--lx-line);border-radius:16px;
+  padding:18px 19px;margin-bottom:18px;transition:.26s;
+}
+.lx-review:hover{box-shadow:var(--lx-shadow);border-color:#dcc9e6}
+.lx-review-head{display:flex;align-items:center;gap:10px;margin-bottom:9px}
+.lx-review-head .lx-avatar{width:34px;height:34px;font-size:13px}
+.lx-review-head h4{font-size:13.5px}
+.lx-review-head small{font-size:11px;color:#9a8aab}
+.lx-review p{font-size:13px;color:#574669}
+.lx-stars{color:var(--lx-gold);font-size:12px;letter-spacing:2px;margin-bottom:7px}
+
+/* ===== 灵感 / 工具 ===== */
+.lx-idea-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.lx-idea{
+  background:#fff;border:1px solid var(--lx-line);border-radius:18px;padding:24px;position:relative;overflow:hidden;transition:.26s;
+}
+.lx-idea:hover{transform:translateY(-4px);box-shadow:var(--lx-shadow)}
+.lx-idea::before{content:"";position:absolute;right:-30px;top:-30px;width:100px;height:100px;border-radius:50%;background:rgba(231,163,200,.18)}
+.lx-idea-no{font-size:12px;font-weight:800;color:var(--lx-pink-deep);letter-spacing:2px}
+.lx-idea h3{font-size:16px;margin:8px 0 8px}
+.lx-idea p{font-size:13px;color:#6b5a7e}
+
+/* ===== 动态时间线 ===== */
+.lx-timeline{position:relative;padding-left:26px;border-left:2px dashed var(--lx-line);display:grid;gap:26px}
+.lx-timeline-item{position:relative}
+.lx-timeline-item::before{
+  content:"";position:absolute;left:-34px;top:5px;width:14px;height:14px;border-radius:50%;
+  background:#fff;border:3px solid var(--lx-pink-deep);
+}
+.lx-timeline-item time{font-size:12px;color:var(--lx-pink-deep);font-weight:700;letter-spacing:.5px}
+.lx-timeline-item h3{font-size:15.5px;margin:5px 0 5px}
+.lx-timeline-item p{font-size:13px;color:#6b5a7e}
+
+/* ===== 合作伙伴 ===== */
+.lx-partner{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.lx-partner div{
+  background:#fff;border:1px solid var(--lx-line);border-radius:14px;padding:14px 30px;
+  font-size:14px;font-weight:600;color:#6b5a7e;letter-spacing:1px;transition:.24s;
+}
+.lx-partner div:hover{border-color:var(--lx-pink-deep);color:var(--lx-pink-deep);transform:translateY(-3px)}
+
+/* ===== FAQ ===== */
+.lx-faq{display:grid;gap:12px;max-width:900px;margin:0 auto}
+.lx-faq details{
+  background:#fff;border:1px solid var(--lx-line);border-radius:14px;padding:15px 20px;transition:.24s;
+}
+.lx-faq details[open]{border-color:#dcc9e6;box-shadow:var(--lx-shadow)}
+.lx-faq summary{
+  cursor:pointer;font-size:14.5px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:14px;
+}
+.lx-faq summary::-webkit-details-marker{display:none}
+.lx-faq summary::after{content:"+";color:var(--lx-pink-deep);font-size:19px;line-height:1;font-weight:400}
+.lx-faq details[open] summary::after{content:"−"}
+.lx-faq details p{font-size:13.5px;color:#6b5a7e;margin-top:11px;border-top:1px dashed var(--lx-line);padding-top:11px}
+
+/* ===== 联系 ===== */
+.lx-contact{background:linear-gradient(135deg,#3a2947,#5a3d6b 55%,#7d5ba6);color:#f4e9f7}
+.lx-contact .lx-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:66px;padding-bottom:66px}
+.lx-contact h2{font-size:clamp(24px,3vw,32px);letter-spacing:-.5px;margin-bottom:14px}
+.lx-contact p{font-size:14px;color:#dcc9e6;max-width:460px}
+.lx-contact-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.lx-contact .lx-btn-ghost{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.35);color:#fff}
+.lx-contact .lx-btn-ghost:hover{background:rgba(255,255,255,.2);color:#fff}
+.lx-contact-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:24px;backdrop-filter:blur(6px)}
+.lx-contact-card dl{display:grid;grid-template-columns:auto 1fr;gap:10px 16px;font-size:13px;margin:0}
+.lx-contact-card dt{color:#c0a9d2}
+.lx-contact-card dd{margin:0;color:#fff}
+
+/* ===== 页脚 ===== */
+.lx-footer{background:#221829;color:#b9a6c9;font-size:13px}
+.lx-footer .lx-wrap{padding-top:52px;padding-bottom:28px}
+.lx-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;padding-bottom:30px;border-bottom:1px solid rgba(255,255,255,.1)}
+.lx-footer h4{color:#f0e3f7;font-size:14px;margin-bottom:12px;letter-spacing:.5px}
+.lx-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:12.5px}
+.lx-footer a:hover{color:var(--lx-pink)}
+.lx-footer-brand p{font-size:12.5px;line-height:1.8;color:#a991bb;margin-top:12px;max-width:320px}
+.lx-footer-bottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:20px;font-size:12px;color:#8f7a9f}
+
+/* ===== 悬浮交互 ===== */
+.lx-to-top{
+  position:fixed;right:22px;bottom:24px;width:46px;height:46px;border-radius:50%;border:0;
+  background:linear-gradient(140deg,#7d5ba6,#cf6fa4);color:#fff;font-size:17px;box-shadow:0 12px 28px rgba(125,91,166,.4);
+  opacity:0;pointer-events:none;transform:translateY(12px);transition:.3s;z-index:90;
+}
+.lx-to-top.is-show{opacity:1;pointer-events:auto;transform:none}
+.lx-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);z-index:200;
+  background:#2b1f3a;color:#ffe4f2;font-size:13px;padding:10px 22px;border-radius:99px;
+  opacity:0;pointer-events:none;transition:.3s;box-shadow:0 14px 30px rgba(0,0,0,.3);
+}
+.lx-toast.is-show{opacity:1;transform:translate(-50%,0)}
+
+/* 弹窗 */
+.lx-modal{
+  position:fixed;inset:0;background:rgba(34,24,41,.55);backdrop-filter:blur(4px);
+  display:none;align-items:center;justify-content:center;z-index:210;padding:20px;
+}
+.lx-modal.is-open{display:flex}
+.lx-modal-card{
+  background:#fff;border-radius:22px;max-width:440px;width:100%;padding:28px;position:relative;
+  box-shadow:var(--lx-shadow-lg);animation:lxPop .28s ease;
+}
+@keyframes lxPop{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
+.lx-modal-card h3{font-size:18px;margin-bottom:8px}
+.lx-modal-card p{font-size:13.5px;color:#6b5a7e;margin-bottom:16px}
+.lx-modal-close{position:absolute;right:14px;top:12px;border:0;background:transparent;font-size:19px;color:#9a8aab}
+.lx-modal .lx-avatar{width:56px;height:56px;font-size:20px;margin-bottom:12px}
+.lx-form{display:grid;gap:11px}
+.lx-form input,.lx-form textarea{
+  width:100%;border:1px solid var(--lx-line);border-radius:12px;padding:10px 14px;font-size:13.5px;
+  font-family:inherit;outline:0;transition:.2s;background:var(--lx-mist);color:var(--lx-ink);
+}
+.lx-form input:focus,.lx-form textarea:focus{border-color:var(--lx-pink-deep);background:#fff;box-shadow:0 0 0 4px rgba(207,111,164,.12)}
+.lx-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.lx-share-row button{border:1px solid var(--lx-line);background:#fff;border-radius:99px;padding:8px 18px;font-size:13px;color:var(--lx-plum)}
+.lx-share-row button:hover{border-color:var(--lx-pink-deep);color:var(--lx-pink-deep)}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .lx-hero .lx-wrap{grid-template-columns:1fr;gap:34px;padding-top:44px;padding-bottom:54px}
+  .lx-hero-main{transform:none;max-width:560px}
+  .lx-hero-float{right:8px;bottom:10px}
+  .lx-feature-grid{grid-template-columns:1fr}
+  .lx-side-stack{grid-template-rows:none;grid-template-columns:1fr 1fr}
+  .lx-about-grid{grid-template-columns:1fr;gap:26px}
+  .lx-about-card{position:static}
+  .lx-topic-grid{grid-template-columns:1fr 1fr}
+  .lx-creator-grid{grid-template-columns:1fr 1fr}
+  .lx-review-grid{columns:2}
+  .lx-idea-grid{grid-template-columns:1fr 1fr}
+  .lx-contact .lx-wrap{grid-template-columns:1fr;gap:28px}
+  .lx-footer-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  :root{--lx-sticky:96px}
+  .lx-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--lx-line);
+    flex-direction:column;padding:12px 18px 18px;gap:2px;box-shadow:0 18px 30px rgba(43,31,58,.14);
+  }
+  .lx-nav.is-open{display:flex}
+  .lx-nav a{padding:10px 12px;border-radius:10px}
+  .lx-header .lx-wrap{position:relative;flex-wrap:wrap;min-height:60px;padding-top:8px;padding-bottom:8px}
+  .lx-search{margin-left:auto;order:3}
+  .lx-search-box input{width:100px}
+  .lx-burger{display:block}
+  .lx-hero h1{font-size:38px}
+  .lx-hero-stats{gap:22px}
+  .lx-section{padding:52px 0}
+  .lx-side-stack{grid-template-columns:1fr}
+  .lx-topic-grid,.lx-creator-grid,.lx-idea-grid{grid-template-columns:1fr}
+  .lx-review-grid{columns:1}
+  .lx-wall{grid-template-columns:repeat(2,1fr);grid-auto-rows:110px}
+  .lx-wall-a,.lx-wall-b,.lx-wall-c,.lx-wall-d,.lx-wall-e,.lx-wall-f,.lx-wall-g,.lx-wall-h{grid-column:span 2;grid-row:span 1}
+  .lx-wall-a,.lx-wall-c,.lx-wall-e{grid-row:span 2}
+  .lx-footer-grid{grid-template-columns:1fr}
+  .lx-notice-list{gap:14px}
+  .lx-notice-item{font-size:12.5px}
+  .lx-search-feedback{width:250px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="lx-sticky-shell">
+  <div class="lx-notice" id="lxNotice">
+    <div class="lx-wrap">
+      <span class="lx-notice-tag">官方发布</span>
+      <div class="lx-notice-list">
+        <span class="lx-notice-item"><b>11·19</b> 冬季企划「蕾丝与光的夜谈」正式上线，首批 6 支原创短片已开放</span>
+        <span class="lx-notice-item"><b>11·16</b> 创作者扶持计划第 4 期报名开启，投稿通道更新</span>
+        <span class="lx-notice-item"><b>11·12</b> 品牌故事纪录片《一针一线》正片发布</span>
+      </div>
+      <button class="lx-notice-close" id="lxNoticeClose" aria-label="收起公告">收起</button>
+    </div>
+  </div>
+
+  <header class="lx-header">
+    <div class="lx-wrap">
+      <a class="lx-logo" href="#lxTop">
+        <span class="lx-logo-mark" aria-hidden="true">猫</span>
+        <span>蕾丝猫 妲己<small>OFFICIAL VIDEO</small></span>
+      </a>
+      <nav class="lx-nav" id="lxNav" aria-label="主导航">
+        <a href="#lxTop" class="lx-nav-active">首页</a>
+        <a href="#lxFeature">焦点内容</a>
+        <a href="#lxAbout">品牌解析</a>
+        <a href="#lxTopic">专题企划</a>
+        <a href="#lxCreator">创作者</a>
+        <a href="#lxWall">影像墙</a>
+        <a href="#lxDynamic">品牌动态</a>
+        <a href="#lxFaq">帮助</a>
+      </nav>
+      <div class="lx-search">
+        <div class="lx-search-box">
+          <input type="search" id="lxSearchInput" placeholder="搜索内容 / 创作者 / 专题" aria-label="站内搜索">
+          <button class="lx-search-btn" id="lxSearchBtn">搜索</button>
+        </div>
+      </div>
+      <button class="lx-burger" id="lxBurger" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+  </header>
+</div>
+
+<main id="lxTop">
+
+  <!-- 首屏 -->
+  <section class="lx-hero">
+    <div class="lx-wrap">
+      <div>
+        <span class="lx-hero-badge"><i></i> 蕾丝猫 妲己 官方网站 · 企业级原创影像品牌</span>
+        <h1>蕾丝猫 妲己</h1>
+        <p class="lx-hero-sub">一针一线织就的影像，半梦半醒之间的叙事</p>
+        <p class="lx-hero-intro">
+          作为深耕原创影像与东方美学叙事的视频品牌，蕾丝猫 妲己官方网站以工匠般的耐心打磨每一支短片。
+          我们相信柔软的力量，也相信真实的质地：蕾丝是结构，猫是自由，妲己是我们对魅惑与清醒的重新命名。
+          平台长期陪伴创作者成长，以高清画质、正版授权和专业制作流程，共建值得信赖的内容生态。
+        </p>
+        <div class="lx-hero-actions">
+          <a class="lx-btn lx-btn-primary" href="#lxFeature">进入焦点内容 →</a>
+          <a class="lx-btn lx-btn-ghost" href="#lxCreator">认识创作者</a>
+          <button class="lx-btn lx-btn-ghost" id="lxSubmitBtn">投稿入口</button>
+        </div>
+        <div class="lx-hero-stats">
+          <div>
+            <div class="lx-stat-num">1,860<span>+</span></div>
+            <div class="lx-stat-label">原创短片存量</div>
+          </div>
+          <div>
+            <div class="lx-stat-num">326<span>万</span></div>
+            <div class="lx-stat-label">社区累计关注</div>
+          </div>
+          <div>
+            <div class="lx-stat-num">96<span>%</span></div>
+            <div class="lx-stat-label">用户口碑好评率</div>
+          </div>
+        </div>
+      </div>
+      <div class="lx-hero-visual">
+        <div class="lx-hero-main">
+          <svg viewBox="0 0 640 512" role="img" aria-label="蕾丝猫 妲己品牌主视觉，紫粉色蕾丝纹样与猫形剪影">
+            <defs>
+              <linearGradient id="lxHeroBg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#3a2947"/>
+                <stop offset="55%" stop-color="#7d5ba6"/>
+                <stop offset="100%" stop-color="#e7a3c8"/>
+              </linearGradient>
+              <radialGradient id="lxHeroGlow" cx="50%" cy="42%" r="52%">
+                <stop offset="0%" stop-color="#ffe4f2" stop-opacity=".75"/>
+                <stop offset="100%" stop-color="#ffe4f2" stop-opacity="0"/>
+              </radialGradient>
+              <pattern id="lxLace" width="40" height="40" patternUnits="userSpaceOnUse">
+                <circle cx="20" cy="20" r="13" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="1.2"/>
+                <circle cx="20" cy="20" r="5" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="1"/>
+                <path d="M0 20h7M33 20h7M20 0v7M20 33v7" stroke="#ffffff" stroke-opacity=".16" stroke-width="1"/>
+              </pattern>
+            </defs>
+            <rect width="640" height="512" fill="url(#lxHeroBg)"/>
+            <rect width="640" height="512" fill="url(#lxLace)"/>
+            <circle cx="320" cy="215" r="168" fill="url(#lxHeroGlow)"/>
+            <path d="M320 84c-16 0-30 10-30 10l-46 26c-30 14-52 40-52 78 0 46 38 78 78 92 16 6 34 10 50 10s34-4 50-10c40-14 78-46 78-92 0-38-22-64-52-78l-46-26s-14-10-30-10z" fill="#2b1f3a" opacity=".82"/>
+            <path d="M262 118l13 28-30-10zM378 118l-13 28 30-10z" fill="#e7a3c8"/>
+            <circle cx="288" cy="214" r="13" fill="#ffe4f2"/>
+            <circle cx="352" cy="214" r="13" fill="#ffe4f2"/>
+            <circle cx="288" cy="214" r="6" fill="#2b1f3a"/>
+            <circle cx="352" cy="214" r="6" fill="#2b1f3a"/>
+            <path d="M320 244c-11 12-26 18-40 12 8 14 24 22 40 22s32-8 40-22c-14 6-29 0-40-12z" fill="#e7a3c8"/>
+            <path d="M296 254c6 7 16 11 24 11s18-4 24-11" stroke="#2b1f3a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+            <path d="M150 366c40 22 96 34 170 34s130-12 170-34" stroke="#ffe4f2" stroke-opacity=".5" stroke-width="1.6" fill="none" stroke-dasharray="6 8"/>
+            <g fill="#ffe4f2" opacity=".7">
+              <circle cx="132" cy="150" r="3.4"/><circle cx="508" cy="128" r="2.8"/>
+              <circle cx="96" cy="300" r="2.4"/><circle cx="548" cy="286" r="3.2"/>
+              <circle cx="470" cy="88" r="2.2"/><circle cx="176" cy="98" r="2.6"/>
+            </g>
+          </svg>
+        </div>
+        <div class="lx-hero-chip">正版 · 高清 · 原创</div>
+        <div class="lx-hero-float">
+          <span class="lx-avatar" style="background:linear-gradient(140deg,#cf6fa4,#7d5ba6)">妲</span>
+          <div>
+            <h4>妲己工作室</h4>
+            <p>官方账号 · 本周更新 3 支</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="lx-section" id="lxFeature">
+    <div class="lx-wrap">
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Focus 焦点内容</div>
+          <h2>本周值得停留的影像</h2>
+          <p>由品牌编辑部与社区共同推选，聚焦原创首发与精品内容，呈现蕾丝猫 妲己最真实的一面。</p>
+        </div>
+        <a class="lx-sec-more" href="#lxWall">查看全部影像</a>
+      </div>
+
+      <div class="lx-feature-grid">
+        <article class="lx-card">
+          <div class="lx-thumb">
+            <svg viewBox="0 0 640 360" role="img" aria-label="短片《夜谈：蕾丝猫的第一支舞》封面，紫粉夜色与舞者剪影">
+              <defs>
+                <linearGradient id="lxF1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#221829"/><stop offset="60%" stop-color="#5a3d6b"/><stop offset="100%" stop-color="#cf6fa4"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="360" fill="url(#lxF1)"/>
+              <circle cx="470" cy="120" r="70" fill="#ffe4f2" opacity=".18"/>
+              <circle cx="470" cy="120" r="38" fill="#ffe4f2" opacity=".4"/>
+              <path d="M0 300c90-46 180-22 260 8s180 40 380-26v78H0z" fill="#3a2947" opacity=".68"/>
+              <path d="M300 92c22 0 34 16 34 34 0 26-18 38-18 60 0 22 20 30 20 52 0 18-14 30-36 30s-36-12-36-30c0-22 20-30 20-52 0-22-18-34-18-60 0-18 12-34 34-34z" fill="#ffe4f2" opacity=".85"/>
+              <path d="M282 164c10 6 26 6 36 0" stroke="#5a3d6b" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+              <g fill="#e7a3c8" opacity=".7">
+                <circle cx="120" cy="90" r="3"/><circle cx="196" cy="150" r="2.4"/><circle cx="540" cy="240" r="3.2"/>
+              </g>
+            </svg>
+            <span class="lx-thumb-tag">原创首发</span>
+            <span class="lx-thumb-time">08:42</span>
+            <span class="lx-play" aria-hidden="true">▶</span>
+            <span class="lx-thumb-shade"></span>
+          </div>
+          <div class="lx-card-body">
+            <h3>夜谈：蕾丝猫的第一支舞</h3>
+            <p>冬季企划的开篇之作。镜头跟随一位在凌晨三点练习的舞者，从蕾丝织物的摆动到猫咪掠过的窗台，用 8 分钟讲完一次与自己的和解。</p>
+            <div class="lx-card-meta">
+              <span class="lx-avatar" style="background:linear-gradient(140deg,#cf6fa4,#7d5ba6)">妲</span>
+              <span>妲己工作室</span><span>·</span><span>11月19日</span><span>·</span><span>12.6 万播放</span>
+            </div>
+            <div class="lx-card-ops">
+              <button class="lx-op lx-like" data-count="1834"><span>♡</span> <b>1834</b></button>
+              <button class="lx-op lx-fav"><span>☆</span> 收藏</button>
+              <button class="lx-op lx-comment">评论 96</button>
+              <button class="lx-op lx-share">分享</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="lx-side-stack">
+          <article class="lx-card lx-mini">
+            <div class="lx-thumb">
+              <svg viewBox="0 0 200 125" role="img" aria-label="短片《一针一线：手工蕾丝的四小时》封面，针线与织物特写">
+                <rect width="200" height="125" fill="#f4ecf9"/>
+                <path d="M0 0h200v125H0z" fill="none"/>
+                <g stroke="#7d5ba6" stroke-width="1.4" fill="none" opacity=".8">
+                  <circle cx="60" cy="66" r="26"/><circle cx="60" cy="66" r="16"/><circle cx="60" cy="66" r="6"/>
+                  <path d="M60 24v18M60 90v18M18 66h18M104 66h18"/>
+                </g>
+                <path d="M120 96c14-30 44-42 60-30" stroke="#cf6fa4" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
+                <rect x="126" y="24" width="46" height="46" rx="8" fill="#e7a3c8" opacity=".5"/>
+              </svg>
+              <span class="lx-thumb-time">12:05</span>
+            </div>
+            <div>
+              <h3>一针一线：手工蕾丝的四小时</h3>
+              <p>创作者 · 苏绾</p>
+            </div>
+          </article>
+
+          <article class="lx-card lx-mini">
+            <div class="lx-thumb">
+              <svg viewBox="0 0 200 125" role="img" aria-label="短片《城市夜行：妲己的地铁末班车》封面，夜色与车轨线条">
+                <defs>
+                  <linearGradient id="lxF2" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#1d1626"/><stop offset="100%" stop-color="#4b3a5e"/>
+                  </linearGradient>
+                </defs>
+                <rect width="200" height="125" fill="url(#lxF2)"/>
+                <path d="M20 118l36-56 22 22 26-40 34 46 22-24 20 52" stroke="#e7a3c8" stroke-width="2.2" fill="none" opacity=".9"/>
+                <circle cx="152" cy="30" r="14" fill="#ffe4f2" opacity=".55"/>
+                <g fill="#fff" opacity=".55">
+                  <circle cx="34" cy="26" r="1.6"/><circle cx="88" cy="18" r="1.2"/><circle cx="120" cy="42" r="1.8"/>
+                </g>
+              </svg>
+              <span class="lx-thumb-time">06:18</span>
+            </div>
+            <div>
+              <h3>城市夜行：妲己的地铁末班车</h3>
+              <p>创作者 · 灰猫阿满</p>
+            </div>
+          </article>
+
+          <article class="lx-card lx-mini">
+            <div class="lx-thumb">
+              <svg viewBox="0 0 200 125" role="img" aria-label="访谈短片《匠心：蕾丝纹样里的女性叙事》封面，对话气泡与织物纹理">
+                <rect width="200" height="125" fill="#fdf3f8"/>
+                <rect x="16" y="20" width="86" height="34" rx="12" fill="#7d5ba6" opacity=".85"/>
+                <rect x="96" y="62" width="88" height="34" rx="12" fill="#e7a3c8" opacity=".85"/>
+                <g stroke="#5a3d6b" stroke-width="1.2" fill="none" opacity=".45">
+                  <path d="M0 106c30-14 60 6 90 0s60-16 110-4"/>
+                  <path d="M0 114c30-14 60 6 90 0s60-16 110-4"/>
+                </g>
+              </svg>
+              <span class="lx-thumb-time">15:30</span>
+            </div>
+            <div>
+              <h3>匠心：蕾丝纹样里的女性叙事</h3>
+              <p>创作者 · 沈青禾</p>
+            </div>
+          </article>
+
+          <article class="lx-card lx-mini">
+            <div class="lx-thumb">
+              <svg viewBox="0 0 200 125" role="img" aria-label="科普短片《猫的姿态：从柔软到锋利的七个镜头》封面，猫形几何构成">
+                <rect width="200" height="125" fill="#f0e7f6"/>
+                <g fill="#5a3d6b" opacity=".85">
+                  <path d="M64 60l14-22 14 22c10 4 16 12 16 22 0 14-12 24-30 24s-30-10-30-24c0-10 6-18 16-22z"/>
+                </g>
+                <g fill="none" stroke="#cf6fa4" stroke-width="1.6">
+                  <rect x="120" y="32" width="52" height="32" rx="6"/>
+                  <rect x="130" y="72" width="42" height="24" rx="6"/>
+                </g>
+                <circle cx="170" cy="24" r="8" fill="#e7a3c8"/>
+              </svg>
+              <span class="lx-thumb-time">04:52</span>
+            </div>
+            <div>
+              <h3>猫的姿态：从柔软到锋利的七个镜头</h3>
+              <p>创作者 · 阿岚</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌解析（关键词长文） -->
+  <section class="lx-section lx-about" id="lxAbout">
+    <div class="lx-wrap">
+      <div class="lx-about-grid">
+        <aside class="lx-about-card">
+          <h3>品牌坐标 · 一页速览</h3>
+          <ul>
+            <li>品牌名：蕾丝猫 妲己</li>
+            <li>成立时间：2019 年秋，持续运营至今</li>
+            <li>核心业务：原创短片、品牌纪录片、创作者社区</li>
+            <li>内容方向：东方美学 / 城市夜行 / 手作匠心 / 女性叙事</li>
+            <li>品牌关键词：柔软、结构、真实、陪伴</li>
+            <li>合作方式：品牌联名、专题共创、内容授权</li>
+            <li>官方渠道：官方网站与官方社区账号同步发布</li>
+          </ul>
+        </aside>
+        <div class="lx-about-body">
+          <div class="lx-sec-kicker">Brand Analysis 品牌解析</div>
+          <h2>为什么是“蕾丝猫 妲己”：一个视频品牌的自我说明</h2>
+          <p>
+            “蕾丝猫 妲己”这个名字由三个意象叠合而成。蕾丝代表精细的结构与耐心，猫代表不被驯服的自由与好奇心，妲己则指向一种被历史反复讲述、却始终拥有自我解释权的女性形象。三者叠加，构成了这个视频品牌的基本气质：它不急于给出结论，而是愿意把镜头停留在细节上，让一段织物、一道窗影、一次呼吸都被郑重对待。作为蕾丝猫 妲己官方网站，我们希望这份郑重不仅体现在成片上，也体现在内容生态的每一个环节：从选题到拍摄，从剪辑到发布，从社区讨论到创作者扶持。
+          </p>
+          <h3>一、从一支短片开始的品牌故事</h3>
+          <p>
+            2019 年秋天，品牌以一支名为《织》的短片起步。片中没有任何对白，只有一双在灯下缝合蕾丝的手，以及一只偶尔跳上桌面的猫。这支短片在社区获得了远超预期的回应，许多观众留言说，那是他们第一次意识到，柔软也可以是一种力量。此后，蕾丝猫 妲己逐步确立了以人物与细节为核心的叙事方法：与其宏大叙事，不如拍清楚一个人如何在某个具体时刻做出选择。这种取向延续至今，成为品牌最被认可的品质标签，也让“值得信赖”不再是一句口号，而是可被反复验证的观看体验。
+          </p>
+          <h3>二、内容生态：让创作者与企业共同成长</h3>
+          <p>
+            平台不是单向的输出口。蕾丝猫 妲己在早期就建立了创作者共创机制：编辑部提供选题与制作支持，创作者保留表达自由与署名权，成片收益按贡献分配。这一机制让社区在几年间积累了大量真实、有温度的作品，也让品牌从一个内容生产者，逐步成长为内容生态的组织者。我们坚持正版授权与高清交付，对所有上线内容进行品质校验；同时通过专题企划、比赛与挑战等形式，为新人提供被看见的机会。对蕾丝猫 妲己而言，行业领先不是规模数字，而是能否持续让好内容被认真对待。
+          </p>
+          <div class="lx-quote">
+            “我们想拍的不是完美的人，而是真实的人。真实本身就有足够的影响力，不需要修饰。”
+          </div>
+          <h3>三、垂直领域的深耕与边界</h3>
+          <p>
+            蕾丝猫 妲己并不追求覆盖所有题材，而是把精力集中在几个相互关联的垂直领域：东方美学与手工艺、城市夜间生活、女性成长叙事、以及人与动物之间的陪伴关系。这些方向看似分散，实则共享同一种观察方式——关注被忽略的角落，关注行动背后的动机。深耕带来的好处是判断力的积累：当一个新的选题出现，团队能够较快地辨别它是否属于品牌的表达范围，是否值得投入资源。这种克制，让我们在内容数量增长的同时，保持了口碑的稳定。
+          </p>
+          <h3>四、社会责任与用户至上</h3>
+          <p>
+            作为一个持续运营的视频品牌，蕾丝猫 妲己把社会责任理解为具体的行动：为手工艺人提供免费的影像记录，为女性创作者设立专项扶持名额，为社区用户建立透明的反馈与举报通道。我们相信用户至上的核心不是迎合，而是尊重——尊重观看者的时间，尊重创作者的心血，也尊重被拍摄者的意愿。每一条内容在上线前都要经过授权确认与隐私审查，这些流程不产生流量，却构成品牌信任的地基。
+          </p>
+          <h3>五、官方网站的角色</h3>
+          <p>
+            在社交平台之外，蕾丝猫 妲己官方网站承担着更为稳定的角色：它是品牌故事、企业动态与精品内容的归档地，是创作者档案与专题企划的索引，也是合作与投稿的正式入口。相比信息流，官方网站更强调秩序与完整，用户可以在其中按主题、按创作者、按时间线地了解品牌的全部面貌。我们也会持续在这里发布官方公告、更新日志与活动报名信息，让每一次变化都有据可查。
+          </p>
+          <h3>六、面向未来的创新与包容</h3>
+          <p>
+            影像的表达方式在不断变化。蕾丝猫 妲己正在尝试更轻量的竖屏叙事、更开放的共创脚本，以及把 AI 工具引入前期灵感整理环节，但始终坚持以人为核心的创作判断。我们同时希望品牌保持包容：不同年龄、不同地域、不同职业的创作者，都能在这里找到合适的表达位置。创新不是把旧的丢掉，而是让新的与旧的并存，让多元成为内容生态的常态。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="lx-section lx-section-alt" id="lxTopic">
+    <div class="lx-wrap">
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Special 专题企划</div>
+          <h2>正在进行的四个专题</h2>
+          <p>企划以季度为单位推进，每个专题都围绕蕾丝猫 妲己的核心关切展开，开放创作者报名参与。</p>
+        </div>
+        <a class="lx-sec-more" href="#lxDynamic">查看企划进度</a>
+      </div>
+      <div class="lx-topic-grid">
+        <a class="lx-topic" href="#lxFeature">
+          <svg viewBox="0 0 400 300" role="img" aria-label="专题《冬季企划：蕾丝与光的夜谈》封面，夜灯与织物">
+            <defs>
+              <linearGradient id="lxT1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#3a2947"/><stop offset="100%" stop-color="#cf6fa4"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="300" fill="url(#lxT1)"/>
+            <circle cx="286" cy="86" r="44" fill="#ffe4f2" opacity=".6"/>
+            <path d="M0 244c60-40 120-10 180 12s140 20 220-28v72H0z" fill="#221829" opacity=".6"/>
+            <g stroke="#ffe4f2" stroke-opacity=".55" stroke-width="1.6" fill="none">
+              <circle cx="120" cy="140" r="34"/><circle cx="120" cy="140" r="20"/><circle cx="120" cy="140" r="8"/>
+            </g>
+          </svg>
+          <div class="lx-topic-in">
+            <span>更新中</span>
+            <h3>冬季企划：蕾丝与光的夜谈</h3>
+            <p>6 支原创短片，关于夜晚、独处与重新出发。</p>
+          </div>
+        </a>
+        <a class="lx-topic" href="#lxCreator">
+          <svg viewBox="0 0 400 300" role="img" aria-label="专题《手作匠心：蕾丝工艺影像档案》封面，针线工具与纹样">
+            <rect width="400" height="300" fill="#f4ecf9"/>
+            <g stroke="#7d5ba6" stroke-width="2" fill="none" opacity=".85">
+              <path d="M70 60c60 22 60 100 0 122M330 60c-60 22-60 100 0 122"/>
+              <path d="M70 182h260"/>
+            </g>
+            <circle cx="200" cy="150" r="48" fill="none" stroke="#cf6fa4" stroke-width="2.4"/>
+            <circle cx="200" cy="150" r="26" fill="none" stroke="#cf6fa4" stroke-width="1.6"/>
+            <path d="M200 102v-22M200 220v-22" stroke="#5a3d6b" stroke-width="2"/>
+          </svg>
+          <div class="lx-topic-in">
+            <span>持续更新</span>
+            <h3>手作匠心：蕾丝工艺影像档案</h3>
+            <p>走进 8 位手工艺人的工作台，记录一门慢手艺。</p>
+          </div>
+        </a>
+        <a class="lx-topic" href="#lxWall">
+          <svg viewBox="0 0 400 300" role="img" aria-label="专题《城市夜行：妲己的十二个夜晚》封面，城市灯线与车窗">
+            <defs>
+              <linearGradient id="lxT3" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#1d1626"/><stop offset="100%" stop-color="#4b3a5e"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="300" fill="url(#lxT3)"/>
+            <g fill="#e7a3c8" opacity=".85">
+              <rect x="46" y="120" width="30" height="120" rx="4" opacity=".4"/>
+              <rect x="92" y="86" width="34" height="154" rx="4" opacity=".55"/>
+              <rect x="142" y="140" width="26" height="100" rx="4" opacity=".35"/>
+              <rect x="226" y="100" width="38" height="140" rx="4" opacity=".5"/>
+              <rect x="280" y="62" width="30" height="178" rx="4" opacity=".65"/>
+              <rect x="326" y="126" width="34" height="114" rx="4" opacity=".4"/>
+            </g>
+            <path d="M0 250h400" stroke="#ffe4f2" stroke-opacity=".5" stroke-width="2" stroke-dasharray="10 8"/>
+          </svg>
+          <div class="lx-topic-in">
+            <span>报名开放</span>
+            <h3>城市夜行：妲己的十二个夜晚</h3>
+            <p>面向社区征集夜间影像，用镜头记录城市的另一面。</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="lx-section" id="lxCreator">
+    <div class="lx-wrap">
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Creator 创作者</div>
+          <h2>与品牌同行的创作者</h2>
+          <p>他们是蕾丝猫 妲己内容生态里最真实的部分，来自不同城市与职业，共享同一种认真。</p>
+        </div>
+        <a class="lx-sec-more" href="#lxSubmit">成为创作者</a>
+      </div>
+      <div class="lx-creator-grid">
+        <article class="lx-creator">
+          <span class="lx-avatar" style="background:linear-gradient(140deg,#cf6fa4,#7d5ba6)">苏</span>
+          <h3>苏绾</h3>
+          <div class="lx-creator-field">手工艺 · 织物叙事</div>
+          <p>八年刺绣经验，擅长用手部特写与慢镜头呈现工艺的时间感。</p>
+          <div class="lx-creator-data">
+            <div><b>64</b>作品</div>
+            <div><b>28.4万</b>关注</div>
+          </div>
+          <button class="lx-creator-info" data-creator="苏绾" data-desc="苏绾，苏州手工艺创作者，长期记录蕾丝与刺绣工艺。她认为镜头最珍贵的作用，是让观众看见一门手艺需要多少耐心。">创作者档案</button>
+        </article>
+        <article class="lx-creator">
+          <span class="lx-avatar" style="background:linear-gradient(140deg,#7d5ba6,#4b3a5e)">灰</span>
+          <h3>灰猫阿满</h3>
+          <div class="lx-creator-field">城市夜行 · 街头记录</div>
+          <p>夜班摄影爱好者，习惯在城市安静下来之后出门，收集灯光与脚步。</p>
+          <div class="lx-creator-data">
+            <div><b>51</b>作品</div>
+            <div><b>19.8万</b>关注</div>
+          </div>
+          <button class="lx-creator-info" data-creator="灰猫阿满" data-desc="灰猫阿满，独立影像创作者，专注夜间城市影像。其作品多以长镜头与自然声为主，强调不打扰的观察方式。">创作者档案</button>
+        </article>
+        <article class="lx-creator">
+          <span class="lx-avatar" style="background:linear-gradient(140deg,#e7a3c8,#cf6fa4)">沈</span>
+          <h3>沈青禾</h3>
+          <div class="lx-creator-field">人物访谈 · 女性叙事</div>
+          <p>前杂志编辑，擅长在对话中捕捉停顿，让受访者说出真正想说的话。</p>
+          <div class="lx-creator-data">
+            <div><b>38</b>作品</div>
+            <div><b>33.1万</b>关注</div>
+          </div>
+          <button class="lx-creator-info" data-creator="沈青禾" data-desc="沈青禾，访谈类创作者，关注女性成长与职业选择。她的访谈以克制著称，常把镜头留给沉默的几秒钟。">创作者档案</button>
+        </article>
+        <article class="lx-creator">
+          <span class="lx-avatar" style="background:linear-gradient(140deg,#5a3d6b,#cf6fa4)">岚</span>
+          <h3>阿岚</h3>
+          <div class="lx-creator-field">萌宠日常 · 知识科普</div>
+          <p>动物行为观察者，擅长用简单实验解释猫的肢体语言与情绪变化。</p>
+          <div class="lx-creator-data">
+            <div><b>72</b>作品</div>
+            <div><b>41.6万</b>关注</div>
+          </div>
+          <button class="lx-creator-info" data-creator="阿岚" data-desc="阿岚，动物行为内容创作者，与两只救助猫共同生活。她的科普视频强调尊重动物习性，不使用摆拍。">创作者档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像墙 -->
+  <section class="lx-section lx-section-alt" id="lxWall">
+    <div class="lx-wrap">
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Gallery 影像墙</div>
+          <h2>社区影像精选</h2>
+          <p>来自社区投稿的封面与剧照，尺寸不一，风格各异，共同拼出蕾丝猫 妲己的日常。</p>
+        </div>
+        <a class="lx-sec-more" href="#lxSubmit">上传你的作品</a>
+      </div>
+      <div class="lx-wall">
+        <a class="lx-wall-item lx-wall-a" href="#lxFeature">
+          <svg viewBox="0 0 400 400" role="img" aria-label="影像墙作品《灯下的缝纫者》封面，暖光与手部特写">
+            <rect width="400" height="400" fill="#f4ecf9"/>
+            <circle cx="200" cy="150" r="90" fill="#e7a3c8" opacity=".45"/>
+            <path d="M100 400c0-96 46-160 100-160s100 64 100 160z" fill="#5a3d6b" opacity=".75"/>
+            <path d="M150 250c20 14 40 14 60 0" stroke="#f4ecf9" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <circle cx="200" cy="120" r="34" fill="#ffe4f2"/>
+          </svg>
+          <span>灯下的缝纫者</span>
+        </a>
+        <a class="lx-wall-item lx-wall-b" href="#lxFeature">
+          <svg viewBox="0 0 400 200" role="img" aria-label="影像墙作品《窗台与猫》封面，窗格与猫影">
+            <rect width="400" height="200" fill="#fdf3f8"/>
+            <g stroke="#7d5ba6" stroke-width="2" fill="none" opacity=".6">
+              <rect x="40" y="30" width="140" height="140"/><path d="M110 30v140M40 100h140"/>
+            </g>
+            <path d="M250 170c-16-40 8-76 40-76 26 0 40 20 40 44 0 20-14 32-14 46z" fill="#5a3d6b" opacity=".8"/>
+            <circle cx="336" cy="60" r="16" fill="#cf6fa4" opacity=".5"/>
+          </svg>
+          <span>窗台与猫</span>
+        </a>
+        <a class="lx-wall-item lx-wall-c" href="#lxFeature">
+          <svg viewBox="0 0 400 400" role="img" aria-label="影像墙作品《夜里的第三盏灯》封面，街灯与雨丝">
+            <defs>
+              <linearGradient id="lxW3" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#221829"/><stop offset="100%" stop-color="#5a3d6b"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="400" fill="url(#lxW3)"/>
+            <g stroke="#e7a3c8" stroke-width="2" opacity=".65">
+              <path d="M100 0v150M200 0v210M300 0v120"/>
+            </g>
+            <g fill="#ffe4f2" opacity=".85">
+              <circle cx="100" cy="150" r="22"/><circle cx="200" cy="210" r="16"/><circle cx="300" cy="120" r="18"/>
+            </g>
+            <path d="M0 340h400" stroke="#e7a3c8" stroke-opacity=".4" stroke-width="2"/>
+          </svg>
+          <span>夜里的第三盏灯</span>
+        </a>
+        <a class="lx-wall-item lx-wall-d" href="#lxFeature">
+          <svg viewBox="0 0 400 200" role="img" aria-label="影像墙作品《一杯茶的午后》封面，茶杯与光影">
+            <rect width="400" height="200" fill="#f4ecf9"/>
+            <ellipse cx="200" cy="160" rx="90" ry="18" fill="#7d5ba6" opacity=".18"/>
+            <path d="M150 70h80v46c0 24-18 38-40 38s-40-14-40-38z" fill="#e7a3c8" opacity=".85"/>
+            <path d="M230 82h18c14 0 22 10 22 22s-10 22-24 22" stroke="#7d5ba6" stroke-width="4" fill="none"/>
+            <path d="M176 52c6-12 0-18 0-26M200 52c6-12 0-18 0-26" stroke="#7d5ba6" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>
+          </svg>
+          <span>一杯茶的午后</span>
+        </a>
+        <a class="lx-wall-item lx-wall-e" href="#lxFeature">
+          <svg viewBox="0 0 400 400" role="img" aria-label="影像墙作品《舞台之后》封面，幕布与侧光">
+            <rect width="400" height="400" fill="#3a2947"/>
+            <g fill="#cf6fa4" opacity=".55">
+              <path d="M0 0h80v400H0zM320 0h80v400h-80z"/>
+            </g>
+            <circle cx="200" cy="160" r="60" fill="#ffe4f2" opacity=".75"/>
+            <path d="M140 400c0-70 26-120 60-120s60 50 60 120z" fill="#e7a3c8" opacity=".6"/>
+            <path d="M120 0l80 400M280 0l-80 400" stroke="#ffe4f2" stroke-opacity=".18" stroke-width="2"/>
+          </svg>
+          <span>舞台之后</span>
+        </a>
+        <a class="lx-wall-item lx-wall-f" href="#lxFeature">
+          <svg viewBox="0 0 400 400" role="img" aria-label="影像墙作品《手作台上的四个小时》封面，工具与线轴">
+            <rect width="400" height="400" fill="#fdf3f8"/>
+            <rect x="40" y="280" width="320" height="16" rx="6" fill="#7d5ba6" opacity=".5"/>
+            <g fill="#e7a3c8">
+              <circle cx="120" cy="200" r="34"/><circle cx="120" cy="200" r="14" fill="#fff"/>
+              <circle cx="230" cy="180" r="26"/><circle cx="230" cy="180" r="10" fill="#fff"/>
+              <rect x="280" y="150" width="18" height="100" rx="9" fill="#5a3d6b" opacity=".6"/>
+            </g>
+            <path d="M0 320h400" stroke="#5a3d6b" stroke-opacity=".3" stroke-width="2" stroke-dasharray="8 8"/>
+          </svg>
+          <span>手作台上的四个小时</span>
+        </a>
+        <a class="lx-wall-item lx-wall-g" href="#lxFeature">
+          <svg viewBox="0 0 400 200" role="img" aria-label="影像墙作品《午后的猫步》封面，几何猫形与色块">
+            <rect width="400" height="200" fill="#f0e7f6"/>
+            <path d="M120 160c0-50 26-80 60-80s60 30 60 80z" fill="#7d5ba6" opacity=".8"/>
+            <path d="M150 80l-10-32 28 18zM210 80l10-32-28 18z" fill="#cf6fa4"/>
+            <circle cx="168" cy="132" r="7" fill="#ffe4f2"/><circle cx="192" cy="132" r="7" fill="#ffe4f2"/>
+            <rect x="290" y="60" width="60" height="60" rx="10" fill="#e7a3c8" opacity=".6"/>
+          </svg>
+          <span>午后的猫步</span>
+        </a>
+        <a class="lx-wall-item lx-wall-h" href="#lxFeature">
+          <svg viewBox="0 0 400 200" role="img" aria-label="影像墙作品《旧胶片里的蕾丝》封面，胶片孔与花纹">
+            <rect width="400" height="200" fill="#4b3a5e"/>
+            <g fill="#f4ecf9" opacity=".45">
+              <rect x="0" y="10" width="22" height="14" rx="3"/><rect x="0" y="46" width="22" height="14" rx="3"/>
+              <rect x="0" y="82" width="22" height="14" rx="3"/><rect x="0" y="118" width="22" height="14" rx="3"/>
+              <rect x="0" y="154" width="22" height="14" rx="3"/>
+              <rect x="378" y="10" width="22" height="14" rx="3"/><rect x="378" y="46" width="22" height="14" rx="3"/>
+              <rect x="378" y="82" width="22" height="14" rx="3"/><rect x="378" y="118" width="22" height="14" rx="3"/>
+              <rect x="378" y="154" width="22" height="14" rx="3"/>
+            </g>
+            <g stroke="#e7a3c8" stroke-width="1.6" fill="none" opacity=".8">
+              <circle cx="200" cy="100" r="46"/><circle cx="200" cy="100" r="28"/><circle cx="200" cy="100" r="11"/>
+              <path d="M200 54v-16M200 146v16M154 100h-16M246 100h16"/>
+            </g>
+          </svg>
+          <span>旧胶片里的蕾丝</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 + 灵感 -->
+  <section class="lx-section" id="lxVoice">
+    <div class="lx-wrap">
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Voice 社区声音</div>
+          <h2>他们这样描述蕾丝猫 妲己</h2>
+          <p>来自不同城市、不同习惯的用户，分享他们与这个品牌相处的真实片段。</p>
+        </div>
+      </div>
+      <div class="lx-review-grid">
+        <div class="lx-review">
+          <div class="lx-stars">★★★★★</div>
+          <div class="lx-review-head">
+            <span class="lx-avatar" style="background:#7d5ba6">林</span>
+            <div><h4>林木木</h4><small>杭州 · 插画师</small></div>
+          </div>
+          <p>第一次看《织》的时候在地铁上，差点坐过站。那种安静的力量很少见，希望品牌一直保持这种不着急的节奏。</p>
+        </div>
+        <div class="lx-review">
+          <div class="lx-stars">★★★★★</div>
+          <div class="lx-review-head">
+            <span class="lx-avatar" style="background:#cf6fa4">周</span>
+            <div><h4>周小满</h4><small>成都 · 咖啡店主</small></div>
+          </div>
+          <p>店里循环播放他们家的夜行系列当背景，客人常问是哪来的片子。画质很干净，声音也处理得好，不吵。</p>
+        </div>
+        <div class="lx-review">
+          <div class="lx-stars">★★★★☆</div>
+          <div class="lx-review-head">
+            <span class="lx-avatar" style="background:#5a3d6b">陈</span>
+            <div><h4>陈默</h4><small>北京 · 剪辑师</small></div>
+          </div>
+          <p>技术上能看出用心，转场和调色有自己的语言。唯一希望更新再快一点，好内容等得有点久。</p>
+        </div>
+        <div class="lx-review">
+          <div class="lx-stars">★★★★★</div>
+          <div class="lx-review-head">
+            <span class="lx-avatar" style="background:#e7a3c8;color:#2b1f3a">吴</span>
+            <div><h4>吴一一</h4><small>广州 · 在校学生</small></div>
+          </div>
+          <p>参加了第三期挑战，收到了编辑部的修改建议，很具体，不是模板回复。对一个想入行的学生来说很珍贵。</p>
+        </div>
+        <div class="lx-review">
+          <div class="lx-stars">★★★★★</div>
+          <div class="lx-review-head">
+            <span class="lx-avatar" style="background:#4b3a5e">赵</span>
+            <div><h4>赵深</h4><small>西安 · 手作店主</small></div>
+          </div>
+          <p>手作档案那期拍得真好，把师傅们的工作台都拍出来了。看完立刻去买了一台旧缝纫机，算是被种草了。</p>
+        </div>
+        <div class="lx-review">
+          <div class="lx-stars">★★★★☆</div>
+          <div class="lx-review-head">
+            <span class="lx-avatar" style="background:#cf6fa4">钱</span>
+            <div><h4>钱多多</h4><small>上海 · 品牌策划</small></div>
+          </div>
+          <p>合作过一次专题，流程比想象中规范，授权、排期、素材交付都有据可依。作为甲方视角，值得信赖。</p>
+        </div>
+      </div>
+
+      <div style="height:56px"></div>
+
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Inspiration 创作灵感</div>
+          <h2>给下一位创作者的三个起点</h2>
+          <p>编辑部整理的选题与剪辑思路，可直接用于本季度的社区挑战。</p>
+        </div>
+      </div>
+      <div class="lx-idea-grid">
+        <div class="lx-idea">
+          <div class="lx-idea-no">IDEA 01</div>
+          <h3>从一件旧物开始</h3>
+          <p>找一件家里放了很久的织物或首饰，拍它如何被使用、被搁置。旁白只讲事实，不讲意义，让观众自己完成解读。</p>
+        </div>
+        <div class="lx-idea">
+          <div class="lx-idea-no">IDEA 02</div>
+          <h3>把夜晚切成六段</h3>
+          <p>以时间点为结构，21:00 到 03:00 每半小时一个镜头，记录同一扇窗外的变化。剪辑时保留环境声，不配乐。</p>
+        </div>
+        <div class="lx-idea">
+          <div class="lx-idea-no">IDEA 03</div>
+          <h3>让动物成为叙述者</h3>
+          <p>用低机位拍摄宠物的日常路线，把人的活动放在背景。全片不出现人物正脸，只留下声音与影子。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 品牌动态 + 合作 + FAQ -->
+  <section class="lx-section lx-section-alt" id="lxDynamic">
+    <div class="lx-wrap">
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">News 企业动态</div>
+          <h2>官方发布与更新日志</h2>
+          <p>品牌的最新进展、活动报名与内容更新，均在此同步发布。</p>
+        </div>
+      </div>
+      <div class="lx-timeline">
+        <div class="lx-timeline-item">
+          <time>2026 / 11 / 19</time>
+          <h3>冬季企划「蕾丝与光的夜谈」正式上线</h3>
+          <p>首批 6 支原创短片已开放，围绕夜晚与独处展开。企划同步开放创作者报名，提交脚本即可参与共创。</p>
+        </div>
+        <div class="lx-timeline-item">
+          <time>2026 / 11 / 16</time>
+          <h3>创作者扶持计划第 4 期报名开启</h3>
+          <p>本期提供 12 个名额，包含制作支持与专题推荐位。投稿通道已更新，请在投稿入口提交作品与创作说明。</p>
+        </div>
+        <div class="lx-timeline-item">
+          <time>2026 / 11 / 12</time>
+          <h3>品牌纪录片《一针一线》正片发布</h3>
+          <p>历时五个月拍摄，走访三座城市的手工艺人。影片在官方网站与社区账号同步发布，支持高清版本。</p>
+        </div>
+        <div class="lx-timeline-item">
+          <time>2026 / 11 / 05</time>
+          <h3>社区挑战「猫的视角」完成投票</h3>
+          <p>共收到 214 份投稿，社区投票选出 9 件作品进入精选。入选作品将在下月专题中集中展映。</p>
+        </div>
+        <div class="lx-timeline-item">
+          <time>2026 / 10 / 28</time>
+          <h3>品牌与三家独立书店达成内容合作</h3>
+          <p>合作将围绕阅读与影像展开，后续推出联合放映与线下对谈，具体场次请关注官方发布。</p>
+        </div>
+      </div>
+
+      <div style="height:56px"></div>
+
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Partner 合作伙伴</div>
+          <h2>与我们一起把内容做得更好</h2>
+        </div>
+      </div>
+      <div class="lx-partner">
+        <div>拾光书店</div>
+        <div>素织工坊</div>
+        <div>南巷影像器材</div>
+        <div>青灰咖啡</div>
+        <div>夜航电台</div>
+      </div>
+
+      <div style="height:56px"></div>
+
+      <div class="lx-sec-head">
+        <div>
+          <div class="lx-sec-kicker">Help 帮助中心</div>
+          <h2>常见问题</h2>
+        </div>
+      </div>
+      <div class="lx-faq">
+        <details>
+          <summary>如何向蕾丝猫 妲己投稿？</summary>
+          <p>点击页面中的投稿入口，填写作品链接、创作说明与联系方式即可。编辑部会在七个工作日内回复，通过后进入排期。</p>
+        </details>
+        <details>
+          <summary>投稿对画质和时长有要求吗？</summary>
+          <p>建议分辨率不低于 1080p，时长 3 至 20 分钟为宜。竖屏作品亦可，但需保证声音清晰、画面稳定。</p>
+        </details>
+        <details>
+          <summary>作品版权归谁所有？</summary>
+          <p>创作者保留作品署名权与著作权。平台获得非独占的展示授权，用于官方网站与官方社区账号的推荐，具体以合作说明为准。</p>
+        </details>
+        <details>
+          <summary>品牌是否接受商业合作？</summary>
+          <p>接受。我们优先考虑与内容调性相符的品牌联名与专题共创，合作前会进行充分沟通，确保表达不被过度干扰。</p>
+        </details>
+        <details>
+          <summary>社区挑战如何报名？</summary>
+          <p>每个挑战设有独立的报名页与主题说明，通常持续三到四周。报名后按主题提交作品，由编辑部初筛、社区投票复选。</p>
+        </details>
+        <details>
+          <summary>遇到内容问题如何反馈？</summary>
+          <p>可通过页面底部的反馈入口提交，或发送邮件至官方联系邮箱。我们承诺在三个工作日内响应，并保留处理记录。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 / 投稿 -->
+  <section class="lx-contact" id="lxSubmit">
+    <div class="lx-wrap">
+      <div>
+        <div class="lx-sec-kicker" style="color:#e7a3c8">Contact 联系与投稿</div>
+        <h2>带着你的故事，来和我们聊一聊</h2>
+        <p>无论你是一位刚开始拍摄的创作者，还是希望共建内容生态的企业伙伴，蕾丝猫 妲己官方网站都欢迎你的来信。</p>
+        <div class="lx-contact-actions">
+          <button class="lx-btn lx-btn-primary" id="lxSubmitBtn2">提交作品</button>
+          <button class="lx-btn lx-btn-ghost" id="lxFeedbackBtn">反馈与举报</button>
+        </div>
+      </div>
+      <div class="lx-contact-card">
+        <dl>
+          <dt>官方邮箱</dt><dd>hello@lacecat-daji.example</dd>
+          <dt>合作咨询</dt><dd>合作请注明品牌与项目周期</dd>
+          <dt>投稿邮箱</dt><dd>creator@lacecat-daji.example</dd>
+          <dt>办公地址</dt><dd>苏州市姑苏区平江路影像工坊 3 号</dd>
+          <dt>响应时间</dt><dd>工作日 10:00 – 19:00</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="lx-footer">
+  <div class="lx-wrap">
+    <div class="lx-footer-grid">
+      <div class="lx-footer-brand">
+        <a class="lx-logo" href="#lxTop" style="color:#f0e3f7">
+          <span class="lx-logo-mark" aria-hidden="true">猫</span>
+          <span>蕾丝猫 妲己<small style="color:#a991bb">OFFICIAL VIDEO</small></span>
+        </a>
+        <p>蕾丝猫 妲己官方网站，持续运营的原创影像品牌。我们以匠心打磨内容，以真实连接用户，与创作者共同成长。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#lxFeature">焦点内容</a></li>
+          <li><a href="#lxTopic">专题企划</a></li>
+          <li><a href="#lxWall">影像墙</a></li>
+          <li><a href="#lxVoice">社区声音</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于品牌</h4>
+        <ul>
+          <li><a href="#lxAbout">品牌解析</a></li>
+          <li><a href="#lxDynamic">企业动态</a></li>
+          <li><a href="#lxCreator">创作者计划</a></li>
+          <li><a href="#lxSubmit">合作联系</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>帮助与支持</h4>
+        <ul>
+          <li><a href="#lxFaq">常见问题</a></li>
+          <li><a href="#lxSubmit">投稿指南</a></li>
+          <li><a href="#lxSubmit">反馈举报</a></li>
+          <li><a href="#lxTop">回到首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="lx-footer-bottom">
+      <span>© 2026 蕾丝猫 妲己 官方网站 · 版权所有</span>
+      <span>苏 ICP 备 20260119 号 · 持续运营中 · 内容为正版授权</span>
+    </div>
+  </div>
+</footer>
+
+<button class="lx-to-top" id="lxToTop" aria-label="回到顶部">↑</button>
+<div class="lx-toast" id="lxToast" role="status" aria-live="polite"></div>
+
+<div class="lx-modal" id="lxModal" role="dialog" aria-modal="true" aria-label="弹出窗口">
+  <div class="lx-modal-card" id="lxModalCard"></div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toast = document.getElementById('lxToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-show'); }, 2200);
+  }
+
+  /* 公告条收起 */
+  var noticeClose = document.getElementById('lxNoticeClose');
+  var notice = document.getElementById('lxNotice');
+  if(noticeClose){
+    noticeClose.addEventListener('click', function(){
+      notice.style.display = 'none';
+      document.documentElement.style.setProperty('--lx-sticky','64px');
+      showToast('公告已收起，可随时展开');
+    });
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('lxBurger');
+  var nav = document.getElementById('lxNav');
+  if(burger){
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.textContent = open ? '✕' : '☰';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded','false');
+        burger.textContent = '☰';
+      }
+    });
+  }
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('lxSearchInput');
+  var searchBtn = document.getElementById('lxSearchBtn');
+  var searchWrap = document.querySelector('.lx-search');
+  var searchFeedback = document.createElement('div');
+  searchFeedback.className = 'lx-search-feedback';
+  searchWrap.appendChild(searchFeedback);
+
+  function doSearch(){
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      searchFeedback.innerHTML = '请输入关键词，例如「夜谈」「手作」「妲己」。';
+      searchFeedback.classList.add('is-on');
+      return;
+    }
+    var pool = ['夜谈：蕾丝猫的第一支舞','一针一线：手工蕾丝的四小时','城市夜行：妲己的地铁末班车','匠心：蕾丝纹样里的女性叙事','猫的姿态：从柔软到锋利的七个镜头'];
+    var hit = pool.filter(function(t){ return t.indexOf(kw) > -1; });
+    if(hit.length){
+      searchFeedback.innerHTML = '找到 <b>' + hit.length + '</b> 个相关内容：<br>' + hit.join('<br>');
+    } else {
+      searchFeedback.innerHTML = '暂未找到「<b>' + kw.replace(/[<>&]/g,'') + '</b>」的直接结果，可试试「夜」「猫」「蕾丝」。';
+    }
+    searchFeedback.classList.add('is-on');
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ doSearch(); } });
+  document.addEventListener('click', function(e){
+    if(!searchWrap.contains(e.target)){ searchFeedback.classList.remove('is-on'); }
+  });
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll('.lx-like').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var b = btn.querySelector('b');
+      var n = parseInt(btn.dataset.count || b.textContent, 10);
+      if(btn.classList.contains('is-like')){
+        n -= 1; btn.classList.remove('is-like'); btn.querySelector('span').textContent = '♡';
+      } else {
+        n += 1; btn.classList.add('is-like'); btn.querySelector('span').textContent = '♥';
+        showToast('已点赞，感谢支持');
+      }
+      btn.dataset.count = n;
+      b.textContent = n;
+    });
+  });
+  document.querySelectorAll('.lx-fav').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('is-fav');
+      btn.querySelector('span').textContent = on ? '★' : '☆';
+      showToast(on ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* 弹窗基础 */
+  var modal = document.getElementById('lxModal');
+  var modalCard = document.getElementById('lxModalCard');
+  function openModal(html){
+    modalCard.innerHTML = '<button class="lx-modal-close" aria-label="关闭">✕</button>' + html;
+    modal.classList.add('is-open');
+    modalCard.querySelector('.lx-modal-close').addEventListener('click', closeModal);
+    modalCard.querySelectorAll('[data-close]').forEach(function(b){ b.addEventListener('click', closeModal); });
+    var first = modalCard.querySelector('input, textarea');
+    if(first){ setTimeout(function(){ first.focus(); }, 60); }
+  }
+  function closeModal(){ modal.classList.remove('is-open'); }
+  modal.addEventListener('click', function(e){ if(e.target === modal){ closeModal(); } });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ closeModal(); } });
+
+  /* 评论 */
+  document.querySelectorAll('.lx-comment').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal(
+        '<h3>评论区 · 夜谈：蕾丝猫的第一支舞</h3>' +
+        '<p>精选讨论（共 96 条）</p>' +
+        '<div class="lx-review" style="margin-bottom:12px"><div class="lx-review-head"><span class="lx-avatar" style="background:#7d5ba6">叶</span><div><h4>叶绿素</h4><small>2 小时前</small></div></div><p>最后那个长镜头停了很久，反而比快切更有力量。</p></div>' +
+        '<div class="lx-review" style="margin-bottom:12px"><div class="lx-review-head"><span class="lx-avatar" style="background:#cf6fa4">南</span><div><h4>南风</h4><small>5 小时前</small></div></div><p>环境声处理得很干净，建议戴耳机看。</p></div>' +
+        '<div class="lx-form"><input type="text" placeholder="写下你的评论…" aria-label="评论内容"><button class="lx-btn lx-btn-primary" data-close style="justify-content:center">发表评论</button></div>'
+      );
+    });
+  });
+
+  /* 分享 */
+  document.querySelectorAll('.lx-share').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      openModal(
+        '<h3>分享这支短片</h3>' +
+        '<p>把值得停留的影像，分享给同样认真的人。</p>' +
+        '<div class="lx-share-row"><button data-close>微信</button><button data-close>微博</button><button data-close>QQ</button></div>' +
+        '<div style="height:14px"></div>' +
+        '<button class="lx-btn lx-btn-ghost" id="lxCopyLink" style="width:100%;justify-content:center">复制页面链接</button>'
+      );
+      var copyBtn = document.getElementById('lxCopyLink');
+      if(copyBtn){
+        copyBtn.addEventListener('click', function(){
+          var link = 'https://lacecat-daji.example/#lxFeature';
+          if(navigator.clipboard && navigator.clipboard.writeText){
+            navigator.clipboard.writeText(link).then(function(){ showToast('链接已复制'); }, function(){ showToast('复制失败，请手动复制'); });
+          } else {
+            showToast('链接已生成，可手动复制');
+          }
+        });
+      }
+    });
+  });
+
+  /* 创作者档案 */
+  document.querySelectorAll('.lx-creator-info').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var name = btn.dataset.creator || '创作者';
+      var desc = btn.dataset.desc || '';
+      openModal(
+        '<span class="lx-avatar" style="background:linear-gradient(140deg,#cf6fa4,#7d5ba6)">' + name.charAt(0) + '</span>' +
+        '<h3>' + name + '</h3>' +
+        '<p>' + desc + '</p>' +
+        '<button class="lx-btn lx-btn-primary" data-close style="width:100%;justify-content:center">知道了</button>'
+      );
+    });
+  });
+
+  /* 投稿 */
+  function openSubmit(){
+    openModal(
+      '<h3>投稿入口</h3>' +
+      '<p>填写基本信息，编辑部将在七个工作日内回复。</p>' +
+      '<div class="lx-form">' +
+      '<input type="text" placeholder="作品名称" aria-label="作品名称">' +
+      '<input type="text" placeholder="联系方式（邮箱或微信）" aria-label="联系方式">' +
+      '<textarea rows="3" placeholder="一句话说明创作灵感" aria-label="创作说明"></textarea>' +
+      '<button class="lx-btn lx-btn-primary" id="lxSubmitSend" style="justify-content:center">提交作品</button>' +
+      '</div>'
+    );
+    var send = document.getElementById('lxSubmitSend');
+    if(send){
+      send.addEventListener('click', function(){
+        closeModal();
+        showToast('已收到投稿，编辑部将尽快回复');
+      });
+    }
+  }
+  document.getElementById('lxSubmitBtn').addEventListener('click', openSubmit);
+  document.getElementById('lxSubmitBtn2').addEventListener('click', openSubmit);
+
+  /* 反馈 */
+  document.getElementById('lxFeedbackBtn').addEventListener('click', function(){
+    openModal(
+      '<h3>反馈与举报</h3>' +
+      '<p>请描述你遇到的问题，我们会认真处理每一条反馈。</p>' +
+      '<div class="lx-form">' +
+      '<input type="text" placeholder="问题类型（内容 / 版权 / 体验）" aria-label="问题类型">' +
+      '<textarea rows="3" placeholder="详细描述" aria-label="详细描述"></textarea>' +
+      '<button class="lx-btn lx-btn-primary" id="lxFeedbackSend" style="justify-content:center">提交反馈</button>' +
+      '</div>'
+    );
+    document.getElementById('lxFeedbackSend').addEventListener('click', function(){
+      closeModal();
+      showToast('反馈已提交，感谢你的帮助');
+    });
+  });
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('lxToTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 480){ toTop.classList.add('is-show'); } else { toTop.classList.remove('is-show'); }
+  }, {passive:true});
+  toTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+
+  /* 导航高亮 */
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.lx-nav a'));
+  var sections = navLinks.map(function(a){ return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+  function syncNav(){
+    var pos = window.scrollY + 180;
+    var current = sections[0];
+    sections.forEach(function(s){ if(s.offsetTop <= pos){ current = s; } });
+    navLinks.forEach(function(a){
+      a.classList.toggle('lx-nav-active', a.getAttribute('href') === '#' + current.id);
+    });
+  }
+  window.addEventListener('scroll', syncNav, {passive:true});
+  syncNav();
+})();
+</script>
+</body>
+                                             </html>
